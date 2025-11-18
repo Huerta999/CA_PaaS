@@ -1,22 +1,16 @@
-```json
 {
   "name": "cajero-automatico-api",
   "version": "1.0.0",
-  "description": "API REST para cajero automático",
+  "description": "API REST para cajero automatico",
   "main": "servidor.js",
-  "scripts": {
-    "start": "node servidor.js",
-    "dev": "nodemon servidor.js"
-  },
   "engines": {
-    "node": ">=16.x"
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node servidor.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
   }
 }
-```
